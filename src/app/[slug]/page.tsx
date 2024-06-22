@@ -5,7 +5,7 @@ import Link from "next/link";
 import Timer from "@/components/Timer"
 import { useParams } from 'next/navigation'
 
-export default function page() {
+export default function Page() {
 
   const params = useParams();
   ///params hook to access the parameters
