@@ -2,6 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
+
+@layer utilities {
+  .bg-gradient-circle-1 {
+    background: linear-gradient(from 0deg, #ff7c7c, #ff3d3d, #ff7c7c);
+  }
+  
+  .bg-gradient-circle-2 {
+    background: linear-gradient(from 0deg, #7c7cff, #3d3dff, #7c7cff);
+  }
+  
+  .bg-gradient-circle-3 {
+    background: linear-gradient(from 0deg, #7cff7c, #3dff3d, #7cff7c);
+  }
+}
+
+
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -31,19 +48,3 @@ body {
     text-wrap: balance;
   }
 }
-
-
-@layer utilities {
-  .bg-gradient-circle-1 {
-    background: conic-gradient(from 0deg, #ff7c7c, #ff3d3d, #ff7c7c);
-  }
-  
-  .bg-gradient-circle-2 {
-    background: conic-gradient(from 0deg, #7c7cff, #3d3dff, #7c7cff);
-  }
-  
-  .bg-gradient-circle-3 {
-    background: conic-gradient(from 0deg, #7cff7c, #3dff3d, #7cff7c);
-  }
-}
-

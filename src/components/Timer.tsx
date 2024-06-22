@@ -43,7 +43,7 @@ const Timer: React.FC = () => {
 
   return (
     <div className="flex flex-col flex-grow items-center justify-center ">
-      <div className="text-9xl tracking-tighter font-mono mb-8">{formatTime(time)}</div>
+      <div className="text-9xl max-[410px]:text-8xl tracking-tighter font-mono mb-8">{formatTime(time)}</div>
       <div className="space-x-4">
         {!isActive && time === initialTime && <button className="btn" onClick={handleStart}>Start</button>}
         {isActive && <button className="btn" onClick={handlePause}>Pause</button>}
