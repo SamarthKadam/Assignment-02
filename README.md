@@ -13,6 +13,11 @@ This project is a countdown timer built using Next.js with the following feature
 - Functionality to start, pause, resume, and reset the timer.
 - Utilization of Tailwind CSS for styling.
 - Implementation of React hooks for state management.
+- By making use of dynamic routing in Next.js, you can set up your own custom countdown timer by adding  minutes at the end
+ ```
+ https://assignment-02-hazel.vercel.app/24 where "24" represents a countdown time of 24 minutes.
+
+ ```
 - Deployment on Vercel.
 
 ## Technologies Used
@@ -31,7 +36,7 @@ To run this project locally, follow these steps:
 
    ```bash
    git clone https://github.com/SamarthKadam/Assignment-02.git
-   cd countdown-timer-nextjs
+   cd Assignment-02
 
 2. **Install dependencies:**
    ```bash
