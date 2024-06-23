@@ -1,7 +1,9 @@
 # Assignment 02: Countdown Timer
 
-Live Link : https://assignment-02-hazel.vercel.app/
-
+## Live Link  
+```
+https://assignment-02-hazel.vercel.app/
+```
 ## Problem Statement
 
 Create a Next.js project that features a countdown timer starting from 25 minutes and counting down to zero. The application should offer functionality to start, pause, resume, and reset the timer to its default value. Employing Tailwind CSS for aesthetic appeal is preferred, and utilizing React hooks will earn additional recognition. Implement some dynamic routing logic also for different pages. Deploy the same in Vercel. Try to showcase some Next.js specific features for brownie points.
